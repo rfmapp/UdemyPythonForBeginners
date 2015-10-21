@@ -46,3 +46,11 @@ print(list)
 list.reverse()
 # Exibindo a lista
 print(list)
+# Ordenando uma lista. Primeiro criaremos uma nova lista.
+list3 = [1,3,4,2,5]
+# Exibindo a lista
+print(list3)
+# Ordenação da lista.
+list3.sort()
+# Exibindo a lista
+print(list3)
