@@ -34,3 +34,15 @@ print(list)
 list[16] = 18
 # Exibindo a lista
 print(list)
+# Para remover um item de uma lista, podemos usar duas maneiras. A primeira é através do índice.
+del list[16]
+# Exibindo a lista
+print(list)
+# A segunda seria pelo item que se quer remover.
+list.remove(15)
+# Exibindo a lista
+print(list)
+# Podemos ainda inverter a ordem da lista.
+list.reverse()
+# Exibindo a lista
+print(list)
